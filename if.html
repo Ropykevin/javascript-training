@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x=4;
+
+        if (x>5){
+            console.log('X is greater')
+        }else{
+            console.log("x is lesser")
+        }
+
+        // nested if
+        let y=10
+        let z= 5
+
+        if ( y>5){
+            console.log('y is greater than 5')
+            if(z>2){
+                console.log("z is also greater than 2")
+            }else{
+                console.log("z is not greater than 2")
+            }
+
+
+        }else{
+            console.log("y is not greater than 5")
+        }
+        //  else if
+
+        let marks = prompt("enter marks")
+        if (marks>=0 && marks<=100){
+            if (marks > 80) {
+                grade = ('A')
+            }
+            else if (marks > 70 && marks <= 80) {
+                grade = ('B')
+            }
+            else if (marks > 60 && marks <= 70) {
+                grade = ('C')
+            }
+            else if (marks > 50 && marks <= 60) {
+                grade = ('D')
+            }
+            else {
+                grade = ('E')
+            }
+
+        }else{
+            grade="error"
+        }
+        
+
+        alert(grade)
+
+</script>
+</body>
+</html>

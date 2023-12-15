@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // create an object
+        let person = {
+            name: "peter tsidoli",
+            gender: "Male",
+            age: 30
+        }
+        // accesing properties in an object
+        console.log(person.age)//dot  notation
+        console.log(person['age'])//square brackets
+
+        // adding properties into an object
+        person.location = "Kiambu"
+        person["city"] = "nairobi"
+        console.log(person)
+
+        let person1 = {
+        }
+        person1.name = "kevin"
+        person1.age = 25
+        person1['city'] = "mombasa"
+        console.log(person1)
+
+        // modifying/update
+        person.age=35
+        console.log(person)
+
+
+
+        let person2={
+            name:"ian",
+            adress:["123","kimathi-street"]
+        }
+        console.log(person2["adress"])
+
+        let my_array=[1,2,3,4,5,{name:"rayon",age:20, adress: ["123", "kimathi-street"] }]
+        console.log(my_array[5].adress[1])
+
+    </script>
+</body>
+
+</html>

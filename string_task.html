@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1
+        let my_name = "  JOHn ."
+        // convert to lowercase
+        let lower_name= my_name.toLowerCase()
+        console.log(lower_name)
+        // replace .
+        let replace_name=lower_name.replace(".","")
+        console.log(replace_name)
+        // remove spaces
+        let remove_name=replace_name.trim()
+        console.log(remove_name)
+        // 2.
+        let sentence_one = "The Dog Breed is German Shepherd"
+        let breed= sentence_one.slice(8,23)
+        console.log(breed)
+
+        // 3
+        let sentence_three="The lazy dog; ran so fast; it hit the ;wall."
+
+        let split_sentence=sentence_three.split(';')
+        console.log(split_sentence.length)
+
+
+        
+    </script>
+</body>
+</html>
